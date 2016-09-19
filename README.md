@@ -3,7 +3,9 @@
 图片加马赛克效果
 
 使用方法：
+
     @IBOutlet weak var imagev1: UIImageView!
+    
     @IBOutlet weak var imagev2: UIImageView!
 
     @IBAction func btnClicked(){
