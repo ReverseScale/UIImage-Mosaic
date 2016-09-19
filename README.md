@@ -4,4 +4,4 @@
 
 效果截图：
 
-![ABC](https://raw.githubusercontent.com/ReverseScale/UIImage-Mosaic/master/Gif.gif)
+![ABC](https://raw.githubusercontent.com/ReverseScale/UIImage-Mosaic/master/Gif.png)
