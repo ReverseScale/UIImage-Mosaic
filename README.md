@@ -7,10 +7,10 @@
 
 马赛克这种东西，你当然可能会用得到，当然还有毛玻璃效果~
 
-| 名称 |1.列表页 |2.展示页 |3.结果页 |
+| 名称 |1.列表页 |2.马赛克页 |3.毛玻璃页 |
 | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/49394070.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/43197086.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/14637275.jpg) |
-| 描述 | 通过 storyboard 搭建基本框架 | 字典排列前 | 字典排列后 |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-17/38612617.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-17/50454310.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-17/42310312.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 | 马赛克效果 | 毛玻璃效果 |
 
 
 ## Advantage 框架的优势
@@ -27,20 +27,39 @@
 
 
 ## Usage 使用方法
-### 第一步 引入头文件
+### 第一步 马赛克（事件）
 ```
-#import "OrderDic.h"
+let filter = CIFilter(name: "CIPixellate")!
+let inputImage = CIImage(image: originalImage)
+filter.setValue(inputImage, forKey: kCIInputImageKey)
+//        filter.setValue(25, forKey: kCIInputScaleKey) //值越大马赛克就越大(使用默认)
+let fullPixellatedImage = filter.outputImage
+
+let cgImage = context.createCGImage(fullPixellatedImage!,
+                                    from: fullPixellatedImage!.extent)
+imageView.image = cgImage?.convertCGImageToUIImage()
 ```
-### 第二步 简单调用
+### 第二步 毛玻璃
 ```
-[OrderDic order:dic]
+//首先创建一个模糊效果
+let blurEffect = UIBlurEffect(style: .dark)
+//接着创建一个承载模糊效果的视图
+let blurView = UIVisualEffectView(effect: blurEffect)
+//设置模糊视图的大小（全屏）
+blurView.frame.size = CGSize(width: view.frame.width, height: view.frame.height)
+
+//创建并添加vibrancy视图
+let vibrancyView = UIVisualEffectView(effect:
+    UIVibrancyEffect(blurEffect: blurEffect))
+vibrancyView.frame.size = CGSize(width: view.frame.width, height: view.frame.height)
+blurView.contentView.addSubview(vibrancyView)
 ```
 
 使用简单、效率高效、进程安全~~~如果你有更好的建议,希望不吝赐教!
 
 
 ## License 许可证
-OrderedDictionaryTools 使用 MIT 许可证，详情见 LICENSE 文件。
+UIImage-Mosaic 使用 MIT 许可证，详情见 LICENSE 文件。
 
 
 ## Contact 联系方式:
