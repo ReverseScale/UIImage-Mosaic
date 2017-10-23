@@ -94,7 +94,7 @@
                             </constraints>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="FTx-cT-Ixn">
-                            <rect key="frame" x="0.0" y="277" width="375" height="164"/>
+                            <rect key="frame" x="0.0" y="337" width="375" height="164"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
@@ -105,18 +105,18 @@
                                         <rect key="frame" x="0.0" y="157" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WfC-Xg-uTe" id="xCy-Nb-glq">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="马赛克效果" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ynp-xn-yZx">
-                                                    <rect key="frame" x="16" y="10" width="87" height="20.5"/>
+                                                    <rect key="frame" x="16" y="10" width="87" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="The Mosaic effect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Va6-E0-G9h">
-                                                    <rect key="frame" x="16" y="33.5" width="102" height="14.5"/>
+                                                    <rect key="frame" x="16" y="33" width="102" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -132,18 +132,18 @@
                                         <rect key="frame" x="0.0" y="217" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QUn-lX-Hyl" id="8tc-We-tgz">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="毛玻璃效果" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gfg-Dr-Saq">
-                                                    <rect key="frame" x="16" y="10" width="87" height="20.5"/>
+                                                    <rect key="frame" x="16" y="10" width="87" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Effect of frosted glass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KuI-zm-yie">
-                                                    <rect key="frame" x="16" y="33.5" width="125.5" height="14.5"/>
+                                                    <rect key="frame" x="16" y="33" width="126" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -153,6 +153,33 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Gg2-Ph-O4d" kind="push" id="gLN-N3-m3r"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="fmY-vh-aKe" detailTextLabel="jz8-xF-JoL" style="IBUITableViewCellStyleSubtitle" id="MNj-eE-0vL">
+                                        <rect key="frame" x="0.0" y="277" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MNj-eE-0vL" id="B4T-K2-lpF">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="人脸识别 + 马赛克效果" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fmY-vh-aKe">
+                                                    <rect key="frame" x="16" y="10" width="176" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Face recognition + The Mosaic effect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jz8-xF-JoL">
+                                                    <rect key="frame" x="16" y="33" width="211" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="t6l-21-t0Z" kind="push" id="Isd-9P-od7"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -210,8 +237,59 @@
             </objects>
             <point key="canvasLocation" x="33" y="743"/>
         </scene>
+        <!--人脸识别-->
+        <scene sceneID="A97-ti-Brj">
+            <objects>
+                <viewController id="t6l-21-t0Z" customClass="FaceRecognitionViewController" customModule="MosaicDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="rc1-lH-bM3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgi-va-zeW">
+                                <rect key="frame" x="20" y="290" width="31" height="30"/>
+                                <state key="normal" title="原图"/>
+                                <connections>
+                                    <action selector="resetImg:" destination="t6l-21-t0Z" eventType="touchUpInside" id="9AG-pX-tEr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AF6-Da-TAb">
+                                <rect key="frame" x="20" y="94" width="335" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="188" id="xB7-CJ-RaG"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am0-k2-51I">
+                                <rect key="frame" x="293" y="290" width="62" height="30"/>
+                                <state key="normal" title="人脸打码"/>
+                                <connections>
+                                    <action selector="detectAndPixFace:" destination="t6l-21-t0Z" eventType="touchUpInside" id="CAt-VZ-WTi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AF6-Da-TAb" firstAttribute="leading" secondItem="qz9-zI-Yb3" secondAttribute="leading" constant="20" id="2sg-W4-4LN"/>
+                            <constraint firstItem="lgi-va-zeW" firstAttribute="leading" secondItem="AF6-Da-TAb" secondAttribute="leading" id="4OA-bR-Fwo"/>
+                            <constraint firstItem="qz9-zI-Yb3" firstAttribute="trailing" secondItem="AF6-Da-TAb" secondAttribute="trailing" constant="20" id="TXm-zL-bss"/>
+                            <constraint firstItem="lgi-va-zeW" firstAttribute="top" secondItem="AF6-Da-TAb" secondAttribute="bottom" constant="8" id="qRE-fN-vT6"/>
+                            <constraint firstItem="AF6-Da-TAb" firstAttribute="top" secondItem="qz9-zI-Yb3" secondAttribute="top" constant="30" id="smX-1u-mlQ"/>
+                            <constraint firstItem="am0-k2-51I" firstAttribute="trailing" secondItem="AF6-Da-TAb" secondAttribute="trailing" id="xNV-O1-pS4"/>
+                            <constraint firstItem="am0-k2-51I" firstAttribute="top" secondItem="AF6-Da-TAb" secondAttribute="bottom" constant="8" id="zq2-5u-eMe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qz9-zI-Yb3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="人脸识别" id="UOF-mb-ucV"/>
+                    <connections>
+                        <outlet property="imageView" destination="AF6-Da-TAb" id="8DB-TX-LLu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xNG-0h-GDO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="1798"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="d1.jpg" width="1920" height="1080"/>
         <image name="img_folder.png" width="254" height="216"/>
     </resources>
 </document>

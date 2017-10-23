@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3413E80E1F9DAC980097EE06 /* FaceRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413E80D1F9DAC980097EE06 /* FaceRecognitionViewController.swift */; };
+		3413E80F1F9DAD950097EE06 /* d1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3413E80C1F9DAC5D0097EE06 /* d1.jpg */; };
 		34CAA44E1F95D25700CDB82E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAA44D1F95D25700CDB82E /* AppDelegate.swift */; };
 		34CAA4501F95D25700CDB82E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAA44F1F95D25700CDB82E /* ViewController.swift */; };
 		34CAA4531F95D25700CDB82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CAA4511F95D25700CDB82E /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3413E80C1F9DAC5D0097EE06 /* d1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d1.jpg; sourceTree = "<group>"; };
+		3413E80D1F9DAC980097EE06 /* FaceRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionViewController.swift; sourceTree = "<group>"; };
 		34CAA44A1F95D25700CDB82E /* MosaicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosaicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CAA44D1F95D25700CDB82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34CAA44F1F95D25700CDB82E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +110,9 @@
 				34CAA44D1F95D25700CDB82E /* AppDelegate.swift */,
 				34CAA44F1F95D25700CDB82E /* ViewController.swift */,
 				34CAA4831F95E40400CDB82E /* FrostedGlassViewController.swift */,
+				3413E80D1F9DAC980097EE06 /* FaceRecognitionViewController.swift */,
 				34CAA47F1F95DB6800CDB82E /* img_folder.png */,
+				3413E80C1F9DAC5D0097EE06 /* d1.jpg */,
 				34CAA4811F95DC0100CDB82E /* UIImage+Extension.swift */,
 				34CAA4511F95D25700CDB82E /* Main.storyboard */,
 				34CAA4541F95D25800CDB82E /* Assets.xcassets */,
@@ -241,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3413E80F1F9DAD950097EE06 /* d1.jpg in Resources */,
 				34CAA4581F95D25800CDB82E /* LaunchScreen.storyboard in Resources */,
 				34CAA4551F95D25800CDB82E /* Assets.xcassets in Resources */,
 				34CAA4531F95D25700CDB82E /* Main.storyboard in Resources */,
@@ -272,6 +279,7 @@
 				34CAA4821F95DC0100CDB82E /* UIImage+Extension.swift in Sources */,
 				34CAA4501F95D25700CDB82E /* ViewController.swift in Sources */,
 				34CAA4841F95E40400CDB82E /* FrostedGlassViewController.swift in Sources */,
+				3413E80E1F9DAC980097EE06 /* FaceRecognitionViewController.swift in Sources */,
 				34CAA44E1F95D25700CDB82E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
