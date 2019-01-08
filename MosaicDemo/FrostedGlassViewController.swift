@@ -27,7 +27,7 @@ class FrostedGlassViewController: UIViewController {
         blurView.contentView.addSubview(vibrancyView)
         
         //将文本标签添加到vibrancy视图中
-        let label=UILabel(frame:CGRect(x:10,y:44, width:300, height:100))
+        let label=UILabel(frame:CGRect(x:0,y:100, width:300, height:100))
         label.text = "我是水印"
         label.font = UIFont(name: "HelveticaNeue-Bold", size: 40)
         label.textAlignment = .center
