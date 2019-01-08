@@ -9,7 +9,7 @@
 
 | 名称 |1.列表页 |2.马赛克页 |3.毛玻璃页 |4.人脸识别打码|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-23/20562310.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-17/50454310.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-17/42310312.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-23/51071578.jpg) |
+| 截图 | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/19-1-8/1694326.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/19-1-8/55873422.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/19-1-8/93267588.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/19-1-8/8365866.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 马赛克效果 | 毛玻璃效果 | 人脸识别打码效果 |
 
 
